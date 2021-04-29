@@ -1,18 +1,26 @@
 * {
     box-sizing: border-box ;
+   
+    
+    
 }
-body{
+body,html{
     padding: 0;
     margin: 0;
+    width: 100%;
+    
+ /* overflow-x: hidden; */
 }
 p{
     
     color: black;
-    line-height: 25px;
+    line-height: 28px;
     font-style: normal;
+    font-size: 25px;
     font-weight: 500;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
+    text-align: left;
    
     
 }
@@ -21,18 +29,17 @@ p{
 }
 h1{
     color: black;
+    font-size: 90px;
     text-align: center;
 }
 .tags{
     
-    /* position: relative; */
-    /* display:inline-block; */
     float: right;
-     /* left: 170px; */
-     /* top: -21px;  */
-    border: 2px solid blue;
+    border: 1px solid black;
     padding: 10px;
     width: 160px;
+    font-size: 25px;
+    font-weight: 700;
     text-align: center;
     background-color: cyan;
     margin-top: -22px;
@@ -62,7 +69,7 @@ h1{
         margin-left: 2.5%;
         background-color: coral;
         text-align: center;
-        
+        margin-bottom: 2.5%;
     }
     p{
         clear: right;
@@ -72,7 +79,7 @@ h1{
     
 }
 @media (min-width:768px) and (max-width:991px)   {
-    .col-lg-4{
+    .col-md-6{
         position: relative;
         float: left;
         border: 2px solid red;
@@ -85,10 +92,30 @@ h1{
         
         
     }
+    .col-md-12{
+        position: relative;
+        float: left;
+        border: 2px solid red;
+        padding: 20px;
+        width: 95%;
+        margin-left: 2.5%;
+        background-color: coral;
+        text-align: center;
+        margin-bottom: 2.5%;
+        
+        
+    }
+   
     p{
         clear: right;
         padding-top: 20px;
     }
+    /* .col-md-6:nth-last-child(odd){
+        
+        
+        width: 95% !important;
+        
+    } */
     
     
   
@@ -97,7 +124,7 @@ h1{
 
 
 @media (max-width:767px)   {
-    .col-lg-4{
+    .col-sm-12{
         position: relative;
         float: left;
         border: 2px solid red;
