@@ -29,7 +29,7 @@ p{
 }
 h1{
     color: black;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
 }
 .tags{
@@ -63,7 +63,7 @@ h1{
     .col-lg-4{
         position: relative;
         float: left;
-        border: 2px solid red;
+        border: 2px solid black;
         padding: 20px;
         width: 30%;
         margin-left: 2.5%;
@@ -82,7 +82,7 @@ h1{
     .col-md-6{
         position: relative;
         float: left;
-        border: 2px solid red;
+        border: 2px solid black;
         padding: 20px;
         width: 46%;
         margin-left: 2.5%;
@@ -95,7 +95,7 @@ h1{
     .col-md-12{
         position: relative;
         float: left;
-        border: 2px solid red;
+        border: 2px solid black;
         padding: 20px;
         width: 95%;
         margin-left: 2.5%;
@@ -110,12 +110,7 @@ h1{
         clear: right;
         padding-top: 20px;
     }
-    /* .col-md-6:nth-last-child(odd){
-        
-        
-        width: 95% !important;
-        
-    } */
+   
     
     
   
@@ -127,7 +122,7 @@ h1{
     .col-sm-12{
         position: relative;
         float: left;
-        border: 2px solid red;
+        border: 2px solid black;
         padding: 20px;
         width: 95%;
         margin-left: 2.5%;
